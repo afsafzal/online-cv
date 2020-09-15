@@ -114,6 +114,21 @@ projects:
         programming environment for education, we created CoBlox,
         a block-based interface for programming a one-armed industrial robot."
 
+presentations:
+    - title: "A developer perspective on the challenges of automated testing for robots"
+      abstract: "How do robotics developers test their systems? What are the main
+      challenges of testing robots? Is it possible to automatically test robots in
+      simulation? In this talk, I present the findings of several empirical studies
+      with robotics developers, conducted by our research group, designed to identify
+      both the state of the practice and challenges faced by developers when testing
+      their systems. Considering the importance of test automation, and the potential
+      of simulation-based testing, I will focus on presenting the challenges and
+      bottlenecks of test automation for robotics, and how they are impacted by the
+      capabilities of existing simulators."
+      link: "https://vimeo.com/434766676"
+      venue: "ROS Quality Assurance Working Group"
+      date: "July 2020"
+
 publications:
     title: Publications
     #intro: |

@@ -1,0 +1,48 @@
+{% assign presentations = site.data.data.presentations %}
+{% if presentations %}
+<section class="section projec:qts-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
+    </span>
+    Presentations
+  </h2>
+
+  {% for pres in presentations %}
+    <div class="item">
+        <div class="meta">
+        <div class="upper-row">
+      <span class="degree">
+          <b>{{ pres.title }}</b>
+      </span>
+      <div class="time">{{ pres.date }}</div>
+        </div>
+        </div>
+
+        <div class="company">{{ pres.venue }}</div>
+
+
+      {% if pres.abstract %}
+      <span class="intro">{{ pres.abstract | markdownify }}</span>
+      {% endif %}
+
+      {% if pres.link %}
+      <span class="refs-link">
+          <a href="{{ pres.link }}"><i class="fab fa-youtube"></i> Video</a>
+      </span>
+      {% endif %}
+
+
+      {% if pres.slides %}
+      <span class="refs-link">
+          <a href="{{ pres.slides }}"><i class="fas fa-chart-pie"></i> Slides</a>
+      </span>
+      {% endif %}
+
+    </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}
