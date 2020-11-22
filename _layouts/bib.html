@@ -63,6 +63,12 @@
           <a href="{{entry.results}}"><i class="fas fa-chart-line"></i> Results</a>
         </span>
         {% endif %}
+        {% if entry.presentation %}
+        {% if first %}{% assign first = false %}{% else %}&middot; {% endif %}<span class="refs-link">
+          <a href="{{entry.presentation}}"><i class="fab fa-youtube"></i> Presentation</a>
+        </span>
+        {% endif %}
+ 
         {% if entry.doi %}
         {% if first %}{% assign first = false %}{% else %}&middot; {% endif %}<span class="refs-link">
           <a href="http://dx.doi.org/{{entry.doi}}"><i class="fas fa-link"></i> DOI</a>

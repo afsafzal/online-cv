@@ -115,6 +115,21 @@ projects:
         a block-based interface for programming a one-armed industrial robot."
 
 presentations:
+    - title: "Panel: Software Quality in Robotics"
+      abstract: "A robot is only as good as the software that runs it. This panel
+      addresses questions related to software quality in robotics. While there
+      have been vast improvements in many areas of robotics, the quality of the end
+      product is always constrained by the quality of the software that underlies
+      the system. Panelists have worked with software quality in robotics in general
+      and ROS in particular and will include perspectives from both industry and academia.
+      Topics include: the current state of the art in quality assurance practices
+      for robotics; the role of simulation; promoting quality through good development
+      practices; ways to improve testing; software quality in projects with
+      participants of different backgrounds; and unique quality features of the ROS ecosystem."
+      link: "https://vimeo.com/480586443"
+      venue: "ROS World"
+      date: "November 2020"
+
     - title: "A developer perspective on the challenges of automated testing for robots"
       abstract: "How do robotics developers test their systems? What are the main
       challenges of testing robots? Is it possible to automatically test robots in
