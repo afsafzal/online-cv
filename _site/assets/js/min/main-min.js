@@ -1,1 +1,1 @@
-jQuery(document).ready(function($){$(".level-bar-inner").css("width","0"),$(window).on("load",function(){$(".level-bar-inner").each(function(){var n=$(this).data("level");$(this).animate({width:n},800)})})});
+jQuery(document).ready(function(a){a(".level-bar-inner").css("width","0"),a(window).on("load",function(){a(".level-bar-inner").each(function(){var b=a(this).data("level");a(this).animate({width:b},800)})})});
