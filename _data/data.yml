@@ -8,8 +8,8 @@ sidebar:
 
     # Profile information
     name: Afsoon Afzal
-    tagline: PhD Candidate 
-    location: Carnegie Mellon University
+    tagline: Software Engineer 
+    location: Nuro
     avatar: afsoon2.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -37,18 +37,19 @@ sidebar:
 career-profile:
     title: About Me
     summary: |
-      I am a PhD student in the [Institute for Software Research](https://www.isri.cmu.edu)
-      at Carnegie Mellon University. I am a member of [squaresLab](https://squareslab.github.io)
-      under supervision of my advisor [Prof. Claire Le Goues](https://clairelegoues.com).
+      I have received my PhD from the [Institute for Software Research](https://www.isri.cmu.edu)
+      at Carnegie Mellon University under supervision of [Prof. Claire Le Goues](https://clairelegoues.com).
       My main research interests are quality assurance for robotics and cyberphysical systems,
       automatic program repair, and program analysis.
+      I will be joining [Nuro](https://www.nuro.ai) as a software engineer working on automated quality
+      assurance of robotic systems in practice.
       You can download my CV [here](/assets/resume.pdf).
 education:
     - degree: Doctor of Philosophy in Software Engineering
       university: Carnegie Mellon University
-      time: present (Expected 2021)
+      time: 2021
       details: |
-        **Thesis:** Automated Testing of Robotic and Cyberphysical Systems
+        **Thesis:** [Automated Testing of Robotic and Cyberphysical Systems](/materials/thesis.pdf)
     - degree: Master of Science in Software Engineering
       university: Carnegie Mellon University
       time: 2019
@@ -58,6 +59,12 @@ education:
       details: |
         **Thesis:** Bisulfite Genome Sequencing
 experiences:
+    - role: Software Engineer
+      time: 2021
+      company: Nuro Inc. (Mountain View, CA)
+      details: |
+        I will be joining Automation Tools team at Nuro, where we focus on automating the
+        quality assurance process for self-driving delivery robots.
     - role: Product Integrity Intern
       time: 2018
       company: Apple Inc. (Cupertino, CA)
