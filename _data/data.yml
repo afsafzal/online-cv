@@ -8,12 +8,12 @@ sidebar:
 
     # Profile information
     name: Afsoon Afzal
-    tagline: Software Engineer 
-    location: Nuro
+    tagline: Technical Lead of Autonomy Validation 
+    location: Zipline
     avatar: afsoon2.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: afsoona@cs.cmu.edu
+    email: afsoon.afzal@flyzipline.com
     phone: 
     website: cs.cmu.edu/~afsoona #do not add http://
     linkedin: afsoon-afzal
@@ -39,10 +39,12 @@ career-profile:
     summary: |
       I have received my PhD from the [Institute for Software Research](https://www.isri.cmu.edu)
       at Carnegie Mellon University under supervision of [Prof. Claire Le Goues](https://clairelegoues.com).
-      My main research interests are quality assurance for robotics and cyberphysical systems,
-      automatic program repair, and program analysis.
-      I will be joining [Nuro](https://www.nuro.ai) as a software engineer working on automated quality
-      assurance of robotic systems in practice.
+      My main research interests are quality assurance, testing, and validation for robotics and cyberphysical systems.
+      I also have research experience in automatic program repair, and program analysis.
+      I worked at [Nuro](https://www.nuro.ai) as a senior software engineer for 2 years, working on automated testing
+      and validation of Nuro's autonomous vehicle in simulation using a variety of heuristic and machine learning methods.
+      I am now the Technical Lead of Autonomy Validation at [Zipline](https://www.flyzipline.com), focusing on validation
+      and risk assessment of autonomous drones.
       You can download my CV [here](/assets/resume.pdf).
 education:
     - degree: Doctor of Philosophy in Software Engineering
@@ -59,12 +61,18 @@ education:
       details: |
         **Thesis:** Bisulfite Genome Sequencing
 experiences:
-    - role: Software Engineer
-      time: 2021
+    - role: Technical Lead
+      time: 2023
+      company: Zipline Inc. (South San Francisco, CA)
+      details: |
+        Technical Lead of Autonomy Validation focusing on validation and risk assessment of autonomous drones.
+    - role: Senior Software Engineer
+      time: 2021 - 2023
       company: Nuro Inc. (Mountain View, CA)
       details: |
-        I will be joining Automation Tools team at Nuro, where we focus on automating the
-        quality assurance process for self-driving delivery robots.
+        Member of the Simulation team focused on automating processes required for
+        large scale testing and validation of AVs in simulation using a variety of
+        heuristic and machine learning methods.
     - role: Product Integrity Intern
       time: 2018
       company: Apple Inc. (Cupertino, CA)
